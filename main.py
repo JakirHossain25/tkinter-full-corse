@@ -1,15 +1,11 @@
-# label frame widget #
+# this is for buton#
 from tkinter import*
 win=Tk()
-win.title("label frame windget")
-win.geometry("450x450")
-win.config(bg='green')
+win.title("this is for button")
+win.geometry("600x600")
 
-label=LabelFrame(win,text="label frame",bg="green",font=(5),labelanchor=N)
-label.place(x=100,y=100,width=300,height=100)
-
+bt=Button(win,text="shop now",bg="green",fg="white",bd="3",relief="groove")
+bt.place(x=100,y=100,width=100,height=50)
 
 
 win.mainloop()
-
-
